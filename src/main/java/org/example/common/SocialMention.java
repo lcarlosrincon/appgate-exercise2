@@ -1,4 +1,4 @@
-package org.example;
+package org.example.common;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,7 +7,7 @@ import java.util.List;
 
 @Getter
 @Setter
-class SocialMention {
+public class SocialMention {
     private String message;
     private String facebookAccount;
     private String tweeterAccount;
